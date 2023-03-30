@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script/app.js"></script>
+    <script src="https://kit.fontawesome.com/9954b44b7e.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="../images/fullstack-academy-logo-mark-full-color-rgb.png">
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -11,16 +13,61 @@
 </head>
 <body>
     <header>
-
+        <div>
+            <h1>Mason McCoy</h1>
+        </div>
+        <div id="tiwaz-container">
+            <img id="tiwaz" src="../images/tiwaz.png" alt="A photo of nordic rune Tiwaz">
+        </div>
+        <nav>
+            <a href="index.html"><h2>Home</h2></a>
+            <a href="about.html"><h2>About</h2></a>
+            <a href="portfolio.html"><h2>Portfolio</h2></a>
+        </nav>
     </header>
-    <nav>
-        
-    </nav>
+    
     <main>
-
+        <div class="photo-container">
+            <img id="banner" src="../images/bannerImg.jpg" alt="A photo of Iceland">
+        </div>
+        <!--Brief Blurb-->
+        <div class="content">
+            <h3>Welcome!</h3>
+            <p>Welcome to Mason McCoy's portfolio!
+            Here, you will be able to <a href="about.html">learn about Mason</a>,
+            as well as <a href="portfolio.html">some of the projects</a> he has been working on in recent months.
+            </p>
+            <h3>A random fact!</h3>
+            <p>
+                The Elder Futhark rune 'Tiwaz' (ᛏ) is one of the most important runes.
+                From the Norse god of War, Tyr, Tiwaz is an incredibly important rune
+                symbolizing justice, victory and leadership. Tyr and Tiwaz also influenced our
+                modern culture with the day of the week Tuesday (Tyrsdagr)
+            </p>
+            <!--Something attention grabbing-->
+        </div>
+        <iframe src="https://ponggame.io/" frameborder="0"></iframe>
+        <div class="content pong">
+            <p>While you're here, take a break and play some pong before reviewing the rest of the website!</p>
+        </div>
     </main>
     <footer>
-        
+        <!--Socials Links-->
+        <button class="button-icons linkedin" onclick="openInNewTab('https://www.linkedin.com/in/mason-mccoy-669105268/');">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+        </button>
+        <button class="button-icons instagram" onclick="openInNewTab('https://www.instagram.com/mccoycoding/');">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+        </button>
+        <button class="button-icons github" onclick="openInNewTab('https://github.com/mccoycoding');">
+            <i class="fa-brands fa-github fa-2x"></i>
+        </button>
+        <!--Contact Info (Professional)-->
+        <a href="mailto:mccoycoding@gmail.com?subject=Questions Comments or Concerns">
+            <button class="button-icons email">
+                <i class="fa-solid fa-envelope fa-2x"></i>
+            </button>
+        </a>
     </footer>
 </body>
 </html>
