@@ -61,8 +61,8 @@
 /*Sets background of content*/
 body{
     margin: 0;
-    background: rgb(186,98,110);
-    background: linear-gradient(126deg, rgba(186,98,110,1) 0%, rgba(186,135,98,1) 42%, rgba(98,98,186,1) 79%, rgba(101,229,255,1) 100%);
+    background: rgb(98,98,186);
+    background: linear-gradient(90deg, rgba(98,98,186,1) 0%, rgba(186,98,110,1) 38%, rgba(186,135,98,1) 64%, rgba(98,98,186,1) 100%);
 }
 /*Header styles*/
 header{
@@ -144,7 +144,15 @@ p{
     font-size: 1.5rem;
 }
 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+}
+.photo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
