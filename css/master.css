@@ -125,8 +125,7 @@ i{
     background-color: lightgray;
 }
 footer{
-    background: rgb(186,98,110);
-    background: linear-gradient(180deg, rgba(186,98,110,1) 0%, rgba(186,135,98,1) 42%, rgba(98,98,186,1) 79%, rgba(101,229,255,1) 100%);
+    background-color: white;
     display: flex;
     justify-content: space-around;
     position: fixed;
