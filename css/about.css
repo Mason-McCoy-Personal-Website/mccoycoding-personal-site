@@ -1,5 +1,8 @@
 .photo-container{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #profile-photo{
     width: 200px;
