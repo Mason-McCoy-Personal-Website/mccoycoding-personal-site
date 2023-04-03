@@ -3,7 +3,7 @@
         height: 4.5rem;
     }
     #tiwaz{
-        height: 10em;
+        display: none;
     }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -11,7 +11,7 @@
         height: 9rem;
     }
     #tiwaz{
-        height: 10em;
+        display: none;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -19,7 +19,7 @@
         height: 18rem;
     }
     #tiwaz{
-        height: 15em;
+        display: none;
     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1499px) {
@@ -101,6 +101,9 @@ header{
 }
 .nav-links h2{
     color: black;
+}
+.separator{
+    width: 100%;
 }
 
 
