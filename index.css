@@ -8,3 +8,6 @@
 .video-container{
     padding-bottom: 25%;
 }
+body{
+    height: 100vh;
+}
