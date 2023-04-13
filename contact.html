@@ -56,22 +56,18 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-6">
-                <form class="text-white">
+                <form action="https://formspree.io/f/xdovppvv" method="POST" class="text-white">
                     <div class="form-group">
                         <label for="emailName">Name</label>
-                        <input type="text" class="form-control" id="emailName">
+                        <input required type="text" class="form-control" name="emailName" id="emailName">
                     </div>
                     <div class="form-group">
                       <label for="emailAddress">Email address</label>
-                      <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="emailSubject">Subject</label>
-                        <input type="text" class="form-control" id="emailSubject">
+                      <input required type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                       <label for="emailMessage">Message</label>
-                      <textarea class="form-control" id="emailMessage" rows="3"></textarea>
+                      <textarea required minlength="48" class="form-control" name="emailMessage" id="emailMessage" rows="3"></textarea>
                     </div>
                     <button class="btn btn-primary my-3" type="submit">Submit</button>
                   </form>
