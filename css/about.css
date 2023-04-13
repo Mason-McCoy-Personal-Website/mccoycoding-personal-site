@@ -1,0 +1,10 @@
+.profile-photo{
+    border-radius: 50%;
+    border: 2px gold solid
+}
+.profile-photo-2{
+    border-radius: 25%;
+}
+.profile-photo-3{
+    border-radius: 33%;
+}

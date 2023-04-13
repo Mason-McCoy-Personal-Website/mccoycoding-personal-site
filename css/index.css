@@ -1,0 +1,13 @@
+.bg-overlay{
+    overflow: hidden;
+    background: transparent url(//preview.wolfthemes.live/app/themes/reinar/assets/css/../img/t/super8.gif) center center no-repeat;
+    background-size: cover;
+    opacity: .05;
+    top: 0;
+}
+.video-container{
+    padding-bottom: 25%;
+}
+body{
+    height: 100vh;
+}
