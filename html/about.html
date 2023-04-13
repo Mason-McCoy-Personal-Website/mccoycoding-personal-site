@@ -4,79 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../script/app.js"></script>
     <script src="https://kit.fontawesome.com/9954b44b7e.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="../images/fullstack-academy-logo-mark-full-color-rgb.png">
-    <link rel="stylesheet" href="../css/master.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/about.css">
-    <title>About Mason</title>
+    <link rel="shortcut icon" href="../images/web-icon.jpg" type="image/x-icon">
+    <title>About</title>
 </head>
 <body>
-    <header class="front-page-header">
-        <div>
-            <h1>Mason McCoy</h1>
-        </div>
-        <nav>
-            <a class="nav-links" href="index.html"><h2>Home</h2></a>
-            <a class="nav-links" href="about.html"><h2>About</h2></a>
-            <a class="nav-links" href="portfolio.html"><h2>Portfolio</h2></a>
-        </nav>
-    </header>
-    <main>
-        <!--Photo-->
-        <div class="photo-container">
-            <img id="profile-photo" src="../images/profilePhoto.jpg" alt="A photo of Mason McCoy">
-        </div>
-        <!--Professional About-->
-        <div class="content">
-            <div>
-                <h3>About Mason's Work</h3>
-            </div>
-            <div>
-                <p class="about-work">
-                    Mason has been working since he turned 16, working at Little Caesars before leaving to go work at Savor Flavor Asia.
-                    Starting as a server, Mason often worked upwards of 36-40 hour weeks at Savor Flavor Asia, eventually filling multiple roles,
-                    including cashier, delivery driver, and Front of House Manager. After he work as a manager, he worked at a car dealership called
-                    Earnhardt Ford where he worked with 4-5 other coworkers to maintain and move customer vehicles within a lot for service and maintenance.
-                    Afterwards, Mason accepted a position at Amazon Logistics as an Operations Lead, assisting around 161 Amazon Delivery Stations under a developmental department.
-                    <br>
-                    <br>
-                    While working in the Operations Lead position, Mason decided to begin coding as a way to alleviate some of the pressures that the job offered, and has even helped
-                    the department to make Standard Work changes. Tools he has helped develop eased the work of fellow Operations Leads allowed for more efficiency within the workplace
-                </p>
-            </div>
-            <div>
-                <h3>About Mason</h3>
-            </div>
-            <div>
-                <p class="about-mason">
-                    Mason was born in Tucson, Arizona, and has lived in Arizona for his whole life. He and his family were fortunate enough
-                    to be able to afford technology and trips, which culminated in a fascination for technology and adventure in him at a young age.
-                    In high school, Mason was able to attend a class for Mobile Application Development and began to fall in love with software development.
-                    When he graduated from High School in 2019, he and his mother went on a trip to Iceland, where Mason was exposed to Norse culture and mythology,
-                    as well as the beautiful sights and extraordinary experiences therein. When he returned, he researched more about the culture and found that a surviving
-                    sect of Norse Mythology lived on undet the name 'Asatru' which is modern Icelandic for 'Æsir Faith'.
-                </p>
-            </div>
-        </div>  
-    </main>
-    <footer>
-        <!--Socials Links-->
-        <button class="button-icons linkedin" onclick="openInNewTab('https://www.linkedin.com/in/mason-mccoy-669105268/');">
-            <i class="fa-brands fa-linkedin fa-2x"></i>
-        </button>
-        <button class="button-icons instagram" onclick="openInNewTab('https://www.instagram.com/mccoycoding/');">
-            <i class="fa-brands fa-instagram fa-2x"></i>
-        </button>
-        <button class="button-icons github" onclick="openInNewTab('https://github.com/mccoycoding');">
-            <i class="fa-brands fa-github fa-2x"></i>
-        </button>
-        <!--Contact Info (Professional)-->
-        <a href="mailto:mccoycoding@gmail.com?subject=Questions Comments or Concerns">
-            <button class="button-icons email">
-                <i class="fa-solid fa-envelope fa-2x"></i>
+    <!--Start of Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!--Navbar Brand-->
+            <a class="navbar-brand text-white px-5 fs-1" href="index.html">Mason McCoy</a>
+            <!--End of Navbar Brad-->
+            <!--Navbar Toggler Button-->
+            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#pages">
+                <span class="navbar-toggler-icon"></span>
             </button>
-        </a>
+            <!--End of Navbar Toggler-->
+            <!--Navbar Items-->
+            <div class="collapse navbar-collapse" id="pages">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-2" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-2" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-2" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-2" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--End of Navbar Items-->
+        </div>
+    </nav>
+    <!--End of Navbar-->
+
+    <!--Start of About Section-->
+    <div class="container-fluid my-5">
+        <div class="row text-center justify-content-center text-white py-5">
+            <div class="col-lg-4 col-md-6">
+                <h2>Hi! I'm Mason</h2>
+                <p>
+                    I'm currently in school learning how to develop websites and applications for customers who are interested!
+                </p>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <img class="w-75 me-auto profile-photo" src="../images/profilePhoto.jpg" alt="A photo of Mason in a yellow shirt">
+            </div>
+        </div>
+        <div class="row text-center justify-content-center text-white py-5">
+            <div class="col-lg-2 col-md-6">
+                <img class="w-75 me-auto profile-photo-2" src="../images/profilePhoto3.jpg" alt="Mason at the fault line bewteen European and American tectonic plates in Iceland">
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h2>What do you do?</h2>
+                <p>
+                    At the moment, I develop websites using HTML, CSS, and JavaScript technologies.
+                    Using these pieces of code, I have actually designed the website your looking at right now!
+                </p>
+            </div>
+        </div>
+        <div class="row text-center justify-content-center text-white py-5">
+            <div class="col-lg-4 col-md-6">
+                <h2>Do you have future plans?</h2>
+                <p>
+                    After I get my certification from <a href="https://www.fullstackacademy.com/">Fullstack Academy</a> for Web Development,
+                    I intend to broaden my horizons and also learn other important aspects of coding, such as Cybersecurity and Machine Learning!
+                </p>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <img class="w-75 me-auto profile-photo-3" src="../images/profilePhoto2.jpg" alt="A photo of Mason during Golden Hour at a Wendys">
+            </div>
+        </div>
+    </div>
+    <!--End of About Section-->
+
+    <!--Start of Footer-->
+    <footer class="container-fluid bg-dark position-fixed bottom-0 px-2 py-2 text-center">
+        <div class="row">
+            <div class="col">
+                <a class="icon-link icon-link-hover text-white" href="https://www.linkedin.com/in/mason-mccoy-669105268/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+            <div class="col">
+                <a class="icon-link icon-link-hover text-white" href="https://www.instagram.com/mccoycoding/" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+            <div class="col">
+                <a class="icon-link icon-link-hover text-white" href="https://github.com/mccoycoding" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
     </footer>
+    <!--End of Footer-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

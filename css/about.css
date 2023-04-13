@@ -1,21 +1,10 @@
-.photo-container{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.profile-photo{
+    border-radius: 50%;
+    border: 2px gold solid
 }
-#profile-photo{
-    width: 200px;
+.profile-photo-2{
     border-radius: 25%;
-    border: 4px solid black;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.33);
 }
-.about-work, .about-mason{
-    width: auto;
-    margin-left: 25%;
-    margin-right: 25%;
+.profile-photo-3{
+    border-radius: 33%;
 }
-body{
-    margin-bottom: 4%;
-}
-

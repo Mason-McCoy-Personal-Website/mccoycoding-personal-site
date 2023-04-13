@@ -1,108 +1,13 @@
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    .video-container{
-        height: 4.5rem;
-    }
-    #tiwaz{
-        height: 10em;
-    }
-}
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    .video-container{
-        height: 9rem;
-    }
-    #tiwaz{
-        height: 10em;
-    }
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .video-container{
-        height: 18rem;
-    }
-    #tiwaz{
-        height: 15em;
-    }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1499px) {
-    .video-container{
-        height: 36rem;
-    }
-    #tiwaz{
-        height: 20em;
-    }
-}
-@media only screen and (min-width: 1500px){
-    .video-container{
-        height: 48rem;
-    }
-    #tiwaz{
-        height: 25em;
-    }
-}
-
-iframe{
-    width: 100%;
-    height: 16em;
-    margin: 20px 0;
-    
-}
-.content{
-    padding-top: 0;
-    margin-top: 0;
-    border-top: 2px solid black;
-}
-.pong{
-    border: none;
-}
-.video-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.forest-video{
-    width: 100%;
-    margin-bottom: -65px;
-    object-fit: cover;
-}
-h3{
-    margin: 5px auto 5px auto;
-}
-main{
-    padding-bottom: 5em;
-}
-p{
-    margin: 0 25% 15px 25%;
-}
 .bg-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 50%;
     overflow: hidden;
     background: transparent url(//preview.wolfthemes.live/app/themes/reinar/assets/css/../img/t/super8.gif) center center no-repeat;
     background-size: cover;
-    opacity: .05
+    opacity: .05;
+    top: 0;
 }
-header{
-    grid-template-rows: 1fr 1fr 1fr;
+.video-container{
+    padding-bottom: 25%;
 }
-#tiwaz-container{
-    position: absolute;
-    top: 15em;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
+    height: 100vh;
 }
-#tiwaz{
-    height: 25em;
-}
-.nav-links h2{
-    color: black;
-}
-
-
-    
-
